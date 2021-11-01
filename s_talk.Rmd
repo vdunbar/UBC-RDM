@@ -1,0 +1,21 @@
+---
+title: "Talk to a Person"
+---
+
+**When a question is complicated or you're not sure what exactly to ask, it's nice to be engage directly with another human being.**
+
+<div class = "contact">
+### Vancouver
+
+Planning and Ethics [mail@mail.ubc.ca](mailto:mail@mail.ubc.ca)
+
+Current analysis and storage requirements [mail@mail.ubc.ca](mailto:mail@mail.ubc.ca)
+
+Deposit for publication or preservation [mail@mail.ubc.ca](mailto:mail@mail.ubc.ca)
+</div>
+
+<div class = "contact">
+### Okanagan
+
+Single point of contact for all inquiries [mail@mail.ubc.ca](mailto:mail@mail.ubc.ca)
+</div>

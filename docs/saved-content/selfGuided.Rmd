@@ -1,0 +1,167 @@
+---
+title: "Self Guided Help"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+## Data Collection
+*Issues related to tools and governance*
+
+* Indigenous data governance
+* Health data governance
+* Data transfer
+* Informed consent
+* Sensitive data
+* Data collection tools
+* Do I need to amend my ethics application?
+* Policies
+* Someone else's data
+* My research repository
+* Collecting anonymous data
+* De-identifying data
+* Meta data
+
+## Data Authorization
+*Issues related to data stewardship? accessing data not owned by the researcher?*
+
+* Indigenous data governance
+* Health data governance
+* Data transfer
+* Informed consent
+* Sensitive data
+* Data collection tools
+* Do I need to amend my ethics application?
+* Policies
+* Someone else's data
+* My research repository
+* Collecting anonymous data
+* De-identifying data
+* Meta data
+
+## Collaborations
+*Sharing data across institutions*
+
+* Data transfer
+* Informed consent
+* <a href="long-term-storage.html">Long term storage options</a>
+* Sensitive data
+* Do I need to amend my ethics application?
+* Policies
+* To UBC
+* From UBC
+* Data licencing
+
+## Sharing data
+*Solutions to distributing data to others, both platforms and access restrictions*
+
+* Data transfer
+* Informed consent
+* <a href="long-term-storage.html">Long term storage options</a>
+* Sensitive data
+* Do I need to amend my ethics application?
+* Policies
+* To UBC
+* From UBC
+* Data licencing
+
+## Data Reuse
+*Reuse of previously collected or approved data, whether one's own data from a previous project or someone else's data*
+
+* Informed consent
+* My data
+* Someone else's data
+* Waivers of consent
+* Do I need to ammend my ethics application?
+* Policies
+* Do I need to amend my ethics applications?
+* Data stewardship
+* Data licencing
+
+## Moving data
+*The migration of data from one platform, institution, or jurisdiction to another*
+
+* To UBC
+* From UBC
+* Informed consent
+* Waivers of consent
+* Do I need to amend my ethics application?
+* Policies
+
+## Travelling with data
+*The temporary migration of data from one jurisdiction to another*
+
+* Data transfer
+* Informed consent
+* Do I need to amend my ethics application?
+* Policies
+
+## Depositing data
+*Deposit of non active research data to support publisher or funder mandates*
+
+* <a href="long-term-storage.html">Long term storage options</a>
+* Meta data
+* Informed consent
+* Do I need to amend my ethics application?
+* Policies
+* Data curation
+* Data stewardship
+* Indigenous data governance
+* Health data governance
+* De-identifying data
+* Data licencing
+
+## Storage
+*Solutions for storing regularly accessed files*
+
+* Short term
+* Long term
+* Do I need to amend my ethics application
+* Policies
+* My research repository
+* De-identifying data
+* Data licencing
+
+## Active data management
+*Solutions for storing regularly accessed files*
+
+* Short term
+* Long term
+* Do I need to amend my ethics application
+* Policies
+* My research repository
+* De-identifying data
+* Data licencing
+
+## Policies
+*Institutional and Tri-Agency Policies*
+
+* Policies
+* Tri-Agency resources
+
+## Data destruction & retention
+*How long to keep research data*
+
+* Policies
+* Data curation
+* Data stewardship
+* Indigenous data governance
+* Health data governance
+
+## Data and HPC
+*Moving and processing large data sets*
+
+* Link to ARC
+* De-identifying data
+
+## Data management plans
+*Adhering to Tri-agency Requirements*
+
+* Link to resource page
+
+## Graduate students
+*Data management resources specifically for graduate students*
+
+* Link to resource page

@@ -1,0 +1,23 @@
+---
+title: "Self Guided Help"
+output: html_document
+---
+
+```{r, results = "asis", echo = F, warning = F, message = F}
+categories <- read.csv("files/self-guided-categories.csv", header = T)
+categories.sorted <- categories[ order(categories[,1]),]
+
+for (i in 1:nrow(categories.sorted)) {
+  title <- categories.sorted[i, 1]
+  def <- categories.sorted[i, 2]
+  url <- categories.sorted[i, 3]
+  
+  cat(paste0('<a href="',
+      'c_',
+      url,'.html"><button class = "selfGuidedButton"><h3>',
+      title,
+      '</h3><p>',
+      def,
+      '</p></button></a>'))
+}
+```

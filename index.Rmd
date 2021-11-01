@@ -1,0 +1,26 @@
+---
+title: "RDM @ UBC"
+---
+<a href="s_learn.html">
+<button class = "indexButton">
+<h2>Learn</h2>
+
+Self guided resources that cover everything from creating a data management plan, to naming conventions, recommended file formats and how to handle storage of common data types.
+</button>
+</a>
+
+<a href="s_get-help.html">
+<button class = "indexButton">
+<h2>Get Help</h2>
+
+Get answers to specific questions through a guided on line portal or reach out to a live human being to help you make the most of your data and your research.
+</button>
+</a>
+
+<a href="s_training.html">
+<button class = "indexButton">
+<h2>Training & Workshops</h2>
+
+Find out about regular workshops at both UBCV and UBCO related to RDM as well as opportunities for tailored sessions for your lab or classroom.
+</button>
+</a>

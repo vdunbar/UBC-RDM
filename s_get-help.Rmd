@@ -1,0 +1,17 @@
+---
+title: "Get Help"
+---
+<a href="s_talk.html">
+<button class = "getHelpButton">
+<h2>Talk to a Person</h2>
+I have some questions that would benefit from talking with someone about
+</button>
+</a>
+
+<a href="s_self-guided.html">
+<button class = "getHelpButton">
+<h2>Self Guided Help</h2>
+I think I know what I need, give me some topics to explore
+</button>
+</a>
+

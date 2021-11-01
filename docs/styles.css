@@ -1,0 +1,78 @@
+.title {
+  padding-bottom: 20px;
+}
+
+.indexButton {
+  width: 48%;
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid #888888;
+  text-align: center;
+  background: #fff;
+  vertical-align: top;
+  float: left;
+  min-height: 300px;
+}
+
+.getHelpButton {
+  width: 48%;
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid #888888;
+  text-align: center;
+  background: #fff;
+  vertical-align: top;
+  float: left;
+  min-height: 300px;  
+}
+
+.selfGuidedButton {
+  width: 30%;
+  margin: 1%;
+  padding: 1%;
+  border: 2px solid #888888;
+  text-align: center;
+  background: #fff;
+  vertical-align: top;
+  min-height: 177px;
+}
+
+.indexButton p, .getHelpButton p, .selfGuidedButton p {
+  color: #888888;
+}
+
+.indexButton h2, .getHelpButton h2, .selfGuidedButton h3, .consideration h2 {
+  color: #2c3e50;
+}
+
+.pageButton, .contact {
+  border: none;
+  text-align: left;
+  background: #fff;
+}
+
+.pageButton h3, .contact h3 {
+  font-size: 125%;
+  color: #2c3e50;
+}
+
+.pageButton p, .contact p {
+  color: #888888;
+}
+
+.consideration {
+  border: solid 2px #327fa8;
+  padding: 2%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #f0f6fa;
+}
+
+.section h2 {
+  margin-top: 0px !important;
+  padding-top: 30px !important;
+}
+
+a:link, a:visited, a:hover, a:active  {
+ text-decoration: none;
+}

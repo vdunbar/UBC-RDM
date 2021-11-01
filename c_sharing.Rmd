@@ -1,0 +1,25 @@
+---
+title: "Data Sharing"
+---
+
+```{r, results = "asis", echo = F, warning = F, message = F}
+pages <- read.csv("files/pages.csv", header = T)
+
+#subset to relevant categories. Update category here.
+pages.rel <- subset(pages, pages$category == "sharing")
+pages.ord <- pages.rel[order(pages.rel[,2]),]
+
+for (i in 1:nrow(pages.rel)) {
+  page <- pages.ord[i, 1]
+  def <- pages.ord[i, 2]
+  url <- pages.ord[i, 3]
+  
+  cat(paste0('<a href="',
+      'p_',
+      url,'.html"><button class = "pageButton"><h3>',
+      page,
+      '</h3><p>',
+      def,
+      '</p></button></a>'))
+}
+```

@@ -1,0 +1,61 @@
+---
+title: "Get Help"
+---
+
+## Tell us what you want
+
+* I have some questions that would benefit from talking with someone about
+* I think I know what I need, give me some topics to explore
+
+### I Have Some questions
+
+<div class="article">
+* Which campus are you on?
+
+<button>Vancouver</button>
+<button>Okanagan</button>
+
+* Does your question relate to:
+  * Planning and Ethics (email)
+  * Current analysis and storage requirements (email)
+  * Deposit for publicaiton or preservation (email)
+</div>
+
+### I think I know what I need
+
+*toggle these chunks*
+
+#### Data Storage 
+
+* Travel
+* Sensitive
+* Preservation
+* Deposit
+
+#### Sensitive Data 
+
+* Deposit
+* Access
+* Destruction
+* Collection 
+
+#### Data Collection 
+
+* Tools
+* Access
+* Storage 
+
+#### Data Analysis 
+
+* Software
+* Storage Platforms 
+
+#### Ethics Compliance 
+
+* Sharing Data
+* Re-using Data
+* Data Destruction 
+
+#### Sharing Data 
+
+* Interinstitutional collaborations 

@@ -1,0 +1,20 @@
+name: "RDM @ UBC"
+output_dir: "docs"
+navbar:
+  title: "RDM"
+  left:
+    - text: "Learn"
+      href: s_learn.html
+    - text: "Get Help"
+      href: s_get-help.html
+      menu:
+        - text: "Talk to a Person"
+          href: s_talk.html
+        - text: "Self Guided"
+          href: s_self-guided.html
+    - text: "Training & Workshops"
+      href: s_training.html
+output:
+  html_document:
+    theme: flatly
+    css: "styles.css"

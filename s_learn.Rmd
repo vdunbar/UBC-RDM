@@ -1,0 +1,23 @@
+---
+title: "Learning Resources"
+---
+
+**In-depth online learning resources from the Library, Advanced Research Computing, and Research Ethics.**
+
+```{r, results = "asis", echo = F, warning = F, message = F}
+learn <- read.csv("files/learn.csv", header = T)
+
+for (i in 1:nrow(learn)) {
+  op <- learn[i, 1]
+  def <- learn[i, 2]
+  url <- learn[i, 3]
+  
+  cat(paste0('<a href="',
+      url,'.html"><button class = "pageButton"><h3>',
+      op,
+      '</h3><p>',
+      def,
+      '</p></button></a>'))
+}
+```
+
