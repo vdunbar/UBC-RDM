@@ -11,7 +11,7 @@
 
 
 
-<title>Security</title>
+<title>Electronic Information Security</title>
 
 <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -275,33 +351,121 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Security</h1>
+<h1 class="title toc-ignore">Electronic Information Security</h1>
 
 </div>
 
 
-<p><strong>Definition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</strong></p>
+<div class="definition">
+<p><strong>Often forgotten, Electronic Information Security (also known as data security) is one of the most important aspect of Research Data Management.</strong></p>
+<p>Regardless of your research information classification (sensitivity level), there should be security safeguards in place to ensure it is not lost, stolen, or otherwise compromised.</p>
+<p>At UBC, it is the responsibility of your research group to ensure the electronic information you collect, process, store, and share meets the university security and privacy requirements, as well as provincial, national, and international applicable regulations.</p>
+</div>
+<div class="flag">
+<p>It is strongly recommended that you discuss with an Information Security professional when planning a research project that will collect, process, store, and/or share electronic information. This page covers high-level concepts about Information Security, and may not include all information specifically applicable to your research project.</p>
+<p>For assistance, please contact <a href="mailto:arc.support@ubc.ca">arc.support@ubc.ca</a></p>
+</div>
+<hr />
 <div class="consideration">
-<p><strong>Have you thought about…</strong></p>
+<p><strong>Key Notes</strong></p>
 <ul>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+<li>Data ownership. You may not be working with electronic information governed by UBC. Read on or <a href="c_authorization.html">read more about data ownership</a> to explore this issue;</li>
+<li>Data storage options. Whether UBC or third party hosted, your data is still subject to UBC Policies and Standards. Read on or <a href="c_storage.html">check our more resources on data storage options at UBC</a>.</li>
+<li>Specific security requirements. Whether from UBC or a research partner, these may impact how you handle your research data.</li>
+<li>Plan ahead. Identify approaches to safeguarding your research data early. Read on to learn more or <a href="c_dmp.html">check out resources on Data Management Planning</a>.</li>
 </ul>
 </div>
-<div id="first-header" class="section level2">
-<h2>First Header</h2>
-<p>With some content.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div id="classification" class="section level2">
+<h2>Classification</h2>
+<p>When considering the security of your research electronic information, one of the first actions you should take is to identify its classification.</p>
+<p>Electronic Information Classification (also known as Data Classification) is a crucial step in building your research projects’ security posture, as it defines the safeguarding requirements that should be in place for your project to be compliant with the university policies. Electronic Information Classification is defined in <a href="https://cio.ubc.ca/information-security-standards/U1">Security Standard U1 (ISS-U1)</a>.</p>
+<p>To assign a classification to your data, you should:</p>
+<ol style="list-style-type: decimal">
+<li>Consult UBC <a href="https://cio.ubc.ca/information-security-standards/U1">Information Security Standard U1(ISS-U1)</a>;</li>
+<li>Define the nature of your data;</li>
+<li>Identify the element you collect, process or store that meets the highest risk in ISS-U1;</li>
+<li>Assign an electronic information classification to your research data based on the result of step 3.</li>
+</ol>
+<div class="note">
+<p><strong>Note</strong></p>
+<p>Regardless of the amount of information you collect, process, store, or share, the most sensitive element you identified should be the one defining your electronic information classification.</p>
 </div>
-<div id="second-header" class="section level2">
-<h2>Second Header</h2>
-<p>With some content.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div id="processing" class="section level2">
+<h2>Processing</h2>
+<p>Part of your research project planning is usually to identify how your data will be processed, and which tools may be used to do so.</p>
+<p>Before you start the procurement process, you should make sure the solution you’d like to use meets the UBC Information Security requirements of <a href="https://universitycounsel-2015.sites.olt.ubc.ca/files/2019/08/Information-Systems-Policy_SC14.pdf?file=2013/06/policy104.pdf">Policy SC14</a>, and <a href="https://cio.ubc.ca/information-security/policy-standards-resources">associated Standards</a>. To facilitate this process UBC Advanced Research Computing (ARC) offers free security services, including self-service tools, consultations, and various types of security assessments.</p>
+<div class="note">
+<p><strong>Take a deeper dive</strong></p>
+<p>To find out more about ARC Security Services, visit <a href="https://arc.ubc.ca/securityandprivacy">https://arc.ubc.ca/securityandprivacy</a></p>
+<p>If you wish to explore the UBC Information Security Policy and Standards, visit <a href="https://cio.ubc.ca">https://cio.ubc.ca</a></p>
+</div>
+</div>
+<div id="storage" class="section level2">
+<h2>Storage</h2>
+<p>Electronic Information storage plays a central role in your Research Data Management lifecycle, as it must be considered from beginning to end; and beyond if your research data is stored for long term.</p>
+<p>Properly safeguarding your data when stored is one of the most important aspects of a robust information security posture. When planning for electronic information storage, you should consider the following:</p>
+<div id="is-your-data-subject-to-specific-regulations" class="section level3">
+<h3>Is your data subject to specific regulations</h3>
+<p>Privacy regulations such as FIPPA may restrict the storage location of certain type of electronic information, like personally identifiable data. Before establishing a data repository, you should ensure regulation requirements of this repository are met.</p>
+</div>
+<div id="did-you-know-ubc-has-security-requirement-for-electronic-information-storage" class="section level3">
+<h3>Did you know UBC has security requirement for electronic information storage</h3>
+<p>When storing UBC electronic information, you should follow the requirements of UBC Information Security Standard U7. This standard applies to your research data, regardless of where it will be stored, and includes location such as local devices, external hard drives, cloud, and lab servers.</p>
+<p>Consult UBC <a href="https://cio.ubc.ca/information-security-standards/U7">Information Security Standard U7</a> for more information about these requirements, or visit our <a href="s_talk.html">talk to a person</a> page for assistance.</p>
+</div>
+<div id="is-your-data-subject-to-a-specific-ownership-sharing-or-copyright-agreement" class="section level3">
+<h3>Is your data subject to a specific ownership, sharing, or copyright agreement</h3>
+<p>When the research data is owned by more than one institution, or subject to specific agreements, responsibility for safeguarding it, as well as any specific security requirements, may be defined within this agreement.</p>
+<p>Visit the <a href="p_someone-else.html">Someone else’s data</a>, and the <a href="p_licencing-copyright.html">Data Licensing/Copyright/Ownership</a> pages for more information.</p>
+</div>
+<div id="will-your-data-be-in-the-custody-of-an-external-party" class="section level3">
+<h3>Will your data be in the custody of an external party</h3>
+<p>In a situation where your research data will be in the custody of an external party (e.g.: solution provider, or other institution), the agreement between UBC and this external party should define responsibility for safeguarding the data, as well as any specific security requirements.</p>
+<p>Visit the <a href="p_licencing-copyright.html">Data Licensing/Copyright/Ownership</a> page for more information.</p>
+</div>
+<div id="will-you-be-storing-your-data-outside-the-ubc-infrastructure" class="section level3">
+<h3>Will you be storing your data outside the UBC infrastructure</h3>
+<p>Where possible, it is recommended that your research data be stored within the UBC infrastructure for the duration of your project, regardless of its classification.</p>
+<p>To learn more about available internal, and external storage options, <a href="c_storage.html">visit our data storage option</a>.</p>
+<div class="note">
+<p><strong>Note</strong></p>
+<p>Electronic Information stored outside the UBC infrastructure, is subject to UBC Information Security requirements.</p>
+<p>Visit <a href="https://arc.ubc.ca/securityandprivacy">https://arc.ubc.ca/securityandprivacy</a> to find out more about these requirements.</p>
+</div>
+</div>
+</div>
+<div id="sharing" class="section level2">
+<h2>Sharing</h2>
+<p>There are a number of considerations when sharing data with external collaborators, including information management, custody/ownership, and safeguarding requirements.</p>
+<p>For more information about sharing data, visit our <a href="c_sharing.html">sharing data resources</a>.</p>
+</div>
+<div id="related-topics" class="section level2">
+<h2>Related Topics</h2>
+<ul>
+<li><a href="c_collaborations.html">Collaborations</a></li>
+<li><a href="c_sharing.html">Data Sharing</a></li>
+<li><a href="c_storage.html">Data Storage</a></li>
+<li><a href="c_moving.html">Moving Data</a></li>
+<li><a href="c_policies.html">Policies</a></li>
+<li><a href="c_travel.html">Travelling with Data</a></li>
+</ul>
+<div class="note">
+<p><strong>Additional resources</strong></p>
+<p>In addition to the resources on this site, Information Security is supported by multiple units at UBC including the Office of the CIO, Advanced Research Computing, and PrivacyMatters.</p>
+<ul>
+<li>UBC Office of the CIO <a href="https://cio.ubc.ca">https://cio.ubc.ca</a></li>
+<li>UBC Advanced Research Computing, Sensitive Research <a href="https://arc.ubc.ca/securityandprivacy">https://arc.ubc.ca/securityandprivacy</a></li>
+<li>PrivacyMatters <a href="https://privacymatters.ubc.ca/">https://privacymatters.ubc.ca/</a></li>
+</ul>
+<p>Not sure where to go or who to ask? <a href="s_talk.html">Shoot us an email</a> and We’ll connect you with the right people..</p>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -334,6 +498,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -1,25 +1,137 @@
 ---
-title: "Security"
+title: "Electronic Information Security"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 2
+    toc_float: TRUE
 ---
 
-**Definition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..**
+<div class = "definition">
+**Often forgotten, Electronic Information Security (also known as data security) is one of the most important aspect of Research Data Management.**
 
-<div class = "consideration">
-**Have you thought about...**
+Regardless of your research information classification (sensitivity level), there should be security safeguards in place to ensure it is not lost, stolen, or otherwise compromised.
 
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+At UBC, it is the responsibility of your research group to ensure the electronic information you collect, process, store, and share meets the university security and privacy requirements, as well as provincial, national, and international applicable regulations.
 </div>
 
-## First Header
+<div class = "flag">
+It is strongly recommended that you discuss with an Information Security professional when planning a research project that will collect, process, store, and/or share electronic information. This page covers high-level concepts about Information Security, and may not include all information specifically applicable to your research project.
 
-With some content.
+For assistance, please contact [arc.support@ubc.ca](mailto:arc.support@ubc.ca)
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<hr />
 
-## Second Header
+<div class = "consideration">
+**Key Notes**
 
-With some content.
+* Data ownership. You may not be working with electronic information governed by UBC. Read on or [read more about data ownership](c_authorization.html) to explore this issue;
+* Data storage options. Whether UBC or third party hosted, your data is still subject to UBC Policies and Standards. Read on or [check our more resources on data storage options at UBC](c_storage.html).
+* Specific security requirements. Whether from UBC or a research partner, these may impact how you handle your research data.
+* Plan ahead. Identify approaches to safeguarding your research data early. Read on to learn more or [check out resources on Data Management Planning](c_dmp.html).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+
+## Classification
+
+When considering the security of your research electronic information, one of the first actions you should take is to identify its classification.
+
+Electronic Information Classification (also known as Data Classification) is a crucial step in building your research projects' security posture, as it defines the safeguarding requirements that should be in place for your project to be compliant with the university policies. Electronic Information Classification is defined in [Security Standard U1 (ISS-U1)](https://cio.ubc.ca/information-security-standards/U1).
+
+To assign a classification to your data, you should:
+
+1.	Consult UBC [Information Security Standard U1(ISS-U1)](https://cio.ubc.ca/information-security-standards/U1);
+2.	Define the nature of your data; 
+3.	Identify the element you collect, process or store that meets the highest risk in ISS-U1;
+4.	Assign an electronic information classification to your research data based on the result of step 3.
+
+<div class = "note">
+**Note**
+
+Regardless of the amount of information you collect, process, store, or share, the most sensitive element you identified should be the one defining your electronic information classification.
+</div>
+
+
+## Processing
+
+Part of your research project planning is usually to identify how your data will be processed, and which tools may be used to do so.
+
+Before you start the procurement process, you should make sure the solution you’d like to use meets the UBC Information Security requirements of [Policy SC14](https://universitycounsel-2015.sites.olt.ubc.ca/files/2019/08/Information-Systems-Policy_SC14.pdf?file=2013/06/policy104.pdf), and [associated Standards](https://cio.ubc.ca/information-security/policy-standards-resources). To facilitate this process UBC Advanced Research Computing (ARC) offers free security services, including self-service tools, consultations, and various types of security assessments. 
+
+<div class = "note">
+**Take a deeper dive**
+
+To find out more about ARC Security Services, visit [https://arc.ubc.ca/securityandprivacy](https://arc.ubc.ca/securityandprivacy)
+
+If you wish to explore the UBC Information Security Policy and Standards, visit [https://cio.ubc.ca](https://cio.ubc.ca)
+</div>
+
+## Storage
+
+Electronic Information storage plays a central role in your Research Data Management lifecycle, as it must be considered from beginning to end; and beyond if your research data is stored for long term.
+
+Properly safeguarding your data when stored is one of the most important aspects of a robust information security posture. When planning for electronic information storage, you should consider the following:
+
+### Is your data subject to specific regulations
+
+Privacy regulations such as FIPPA may restrict the storage location of certain type of electronic information, like personally identifiable data. Before establishing a data repository, you should ensure regulation requirements of this repository are met. 
+
+### Did you know UBC has security requirement for electronic information storage
+
+When storing UBC electronic information, you should follow the requirements of UBC Information Security Standard U7. This standard applies to your research data, regardless of where it will be stored, and includes location such as local devices, external hard drives, cloud, and lab servers.
+
+Consult UBC [Information Security Standard U7](https://cio.ubc.ca/information-security-standards/U7) for more information about these requirements, or visit our [talk to a person](s_talk.html) page for assistance.
+
+### Is your data subject to a specific ownership, sharing, or copyright agreement
+
+When the research data is owned by more than one institution, or subject to specific agreements, responsibility for safeguarding it, as well as any specific security requirements, may be defined within this agreement.
+
+Visit the [Someone else’s data](p_someone-else.html), and the [Data Licensing/Copyright/Ownership](p_licencing-copyright.html) pages for more information. 
+
+### Will your data be in the custody of an external party
+
+In a situation where your research data will be in the custody of an external party (e.g.: solution provider, or other institution), the agreement between UBC and this external party should define responsibility for safeguarding the data, as well as any specific security requirements.
+
+Visit the [Data Licensing/Copyright/Ownership](p_licencing-copyright.html) page for more information. 
+
+### Will you be storing your data outside the UBC infrastructure
+
+Where possible, it is recommended that your research data be stored within the UBC infrastructure for the duration of your project, regardless of its classification.
+
+To learn more about available internal, and external storage options, [visit our data storage option](c_storage.html).
+
+<div class = "note">
+**Note**
+
+Electronic Information stored outside the UBC infrastructure, is subject to UBC Information Security requirements.
+
+Visit [https://arc.ubc.ca/securityandprivacy](https://arc.ubc.ca/securityandprivacy) to find out more about these requirements.
+</div>
+
+## Sharing
+
+There are a number of considerations when sharing data with external collaborators, including information management, custody/ownership, and safeguarding requirements.
+
+For more information about sharing data, visit our [sharing data resources](c_sharing.html).
+
+## Related Topics
+
+* [Collaborations](c_collaborations.html)
+* [Data Sharing](c_sharing.html)
+* [Data Storage](c_storage.html)
+* [Moving Data](c_moving.html)
+* [Policies](c_policies.html)
+* [Travelling with Data](c_travel.html)
+
+<div class = "note">
+**Additional resources**
+
+In addition to the resources on this site, Information Security is supported by multiple units at UBC including the Office of the CIO, Advanced Research Computing, and PrivacyMatters.
+
+* UBC Office of the CIO [https://cio.ubc.ca](https://cio.ubc.ca)
+* UBC Advanced Research Computing, Sensitive Research [https://arc.ubc.ca/securityandprivacy](https://arc.ubc.ca/securityandprivacy)
+* PrivacyMatters [https://privacymatters.ubc.ca/](https://privacymatters.ubc.ca/)
+
+Not sure where to go or who to ask? [Shoot us an email](s_talk.html) and We'll connect you with the right people..
+</div>

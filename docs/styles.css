@@ -37,8 +37,9 @@
   min-height: 177px;
 }
 
-.indexButton p, .getHelpButton p, .selfGuidedButton p {
+.indexButton p, .getHelpButton p, .selfGuidedButton p, .pageButton p, .contact p {
   color: #888888;
+  font-weight: normal;
 }
 
 .indexButton h2, .getHelpButton h2, .selfGuidedButton h3, .consideration h2 {
@@ -56,8 +57,16 @@
   color: #2c3e50;
 }
 
-.pageButton p, .contact p {
-  color: #888888;
+.definition {
+  color: #054d7a;
+}
+
+.flag {
+  border: solid 2px #bf065e;
+  padding: 2%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #faf7f9;
 }
 
 .consideration {
@@ -68,11 +77,27 @@
   background: #f0f6fa;
 }
 
+.note {
+  border: solid 2px #bcab07;
+  padding: 2%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #fbfaf1;  
+}
+
 .section h2 {
   margin-top: 0px !important;
   padding-top: 30px !important;
 }
 
+.section h3 {
+  font-size: 100%;
+  font-weight: bold;
+  color: #bcab07;
+}
+
 a:link, a:visited, a:hover, a:active  {
  text-decoration: none;
+ color: #27536e;
+ font-weight: bold;
 }
