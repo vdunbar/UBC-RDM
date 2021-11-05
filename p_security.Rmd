@@ -16,6 +16,8 @@ At UBC, it is the responsibility of your research group to ensure the electronic
 </div>
 
 <div class = "flag">
+**Disclaimer**
+
 It is strongly recommended that you discuss with an Information Security professional when planning a research project that will collect, process, store, and/or share electronic information. This page covers high-level concepts about Information Security, and may not include all information specifically applicable to your research project.
 
 For assistance, please contact [arc.support@ubc.ca](mailto:arc.support@ubc.ca)
@@ -73,29 +75,29 @@ Electronic Information storage plays a central role in your Research Data Manage
 
 Properly safeguarding your data when stored is one of the most important aspects of a robust information security posture. When planning for electronic information storage, you should consider the following:
 
-### Is your data subject to specific regulations
+### > Is your data subject to specific regulations
 
 Privacy regulations such as FIPPA may restrict the storage location of certain type of electronic information, like personally identifiable data. Before establishing a data repository, you should ensure regulation requirements of this repository are met. 
 
-### Did you know UBC has security requirement for electronic information storage
+### > Did you know UBC has security requirement for electronic information storage
 
 When storing UBC electronic information, you should follow the requirements of UBC Information Security Standard U7. This standard applies to your research data, regardless of where it will be stored, and includes location such as local devices, external hard drives, cloud, and lab servers.
 
 Consult UBC [Information Security Standard U7](https://cio.ubc.ca/information-security-standards/U7) for more information about these requirements, or visit our [talk to a person](s_talk.html) page for assistance.
 
-### Is your data subject to a specific ownership, sharing, or copyright agreement
+### > Is your data subject to a specific ownership, sharing, or copyright agreement
 
 When the research data is owned by more than one institution, or subject to specific agreements, responsibility for safeguarding it, as well as any specific security requirements, may be defined within this agreement.
 
 Visit the [Someone else’s data](p_someone-else.html), and the [Data Licensing/Copyright/Ownership](p_licencing-copyright.html) pages for more information. 
 
-### Will your data be in the custody of an external party
+### > Will your data be in the custody of an external party
 
 In a situation where your research data will be in the custody of an external party (e.g.: solution provider, or other institution), the agreement between UBC and this external party should define responsibility for safeguarding the data, as well as any specific security requirements.
 
 Visit the [Data Licensing/Copyright/Ownership](p_licencing-copyright.html) page for more information. 
 
-### Will you be storing your data outside the UBC infrastructure
+### > Will you be storing your data outside the UBC infrastructure
 
 Where possible, it is recommended that your research data be stored within the UBC infrastructure for the duration of your project, regardless of its classification.
 

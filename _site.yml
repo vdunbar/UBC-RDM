@@ -18,3 +18,4 @@ output:
   html_document:
     theme: flatly
     css: "styles.css"
+exclude: ["readme.md", "files", "saved-content", "scripts"]
