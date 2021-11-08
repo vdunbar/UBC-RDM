@@ -1,25 +1,93 @@
 ---
-title: "Documentation"
+title: "Data Documentation"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 3
+    toc_float:
+      collapsed: FALSE
 ---
 
-**Definition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..**
+<div class = "definition">
+**Data documentation refers to providing descriptions of data so that it can be correctly read and interpreted by those outside your project team.**
 
-<div class = "consideration">
-**Have you thought about...**
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Documenting your data and project details is something that can begin at the planning stage of your project, but will change and require updating throughout your research process.  
 </div>
 
-## First Header
+<hr />
 
-With some content.
+<div class = "consideration">
+**Key Notes**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As you plan and develop your project, you should consider the following...
 
-## Second Header
+* Data authorization. [Learn more about restrictions on access to and use of research data](c_authorization.html).
+* Data structure. Read more about data structure.  [NO LINK YET]
+* Metadata and metadata standards.  [Learn more about metadata standards](p_metadata.html).
+* File naming conventions. Learn more about effective file naming. [NO LINK YET]
 
-With some content.
+As always, if you are unsure about any of the above, or have questions, [get in touch](s_talk.html). 
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Documentation Formats
+Data documentation can take on a variety of formats though all formats should be similar in content and structure.
+
+File formats will depend on area of practice and comfort or familiarity with various computing environments. Formats used may include plain text - .txt, .md - or binary - .docx for example.
+
+<div class ="note">
+It's important to note that generally speaking, plain text formats are application and operating system agnostic - no matter where you are and who's machine you are on, you will be able to open them - while program specific file types, like Microsoft Word, do not move as well across platforms and as time goes on, may be more difficult to share and access.
+</div>
+
+## Documentation Files
+
+
+All forms of documentation must include basic information about the data that allow for its correct interpretation and reuse by yourself in the future and other researchers.
+
+Common documentation files include project level documentation in a `readme` file, data documentation in a `data dictionary` file, note books in a `field notes` or discipline equivalent file, and data coding in a `code book`.
+
+### > `Readme` files
+
+A file that contains critical information about data file(s).
+
+This includes, citation information, file organization structure, variable definitions, methodological information, code (if applicable), data collection information, software/instruments used and versions, licensing information, etc.
+
+Often in .txt file format
+
+* [UBC’s Readme Best Practices guide](https://researchdata-06oct2014.sites.olt.ubc.ca/files/2020/04/QuickGuide_UBC_readme_v1.0_20200427.pdf).
+* [Cornell's Guide to writing `readme` style metadata](https://data.research.cornell.edu/content/readme#introductory).
+* [Cornell's `readme` Template](https://cornell.app.box.com/v/ReadmeTemplate).
+
+### > Data dictionaries
+
+A file that provides critical information about a data file by describing the names, definitions, and attributes of the data elements.
+
+This is often created for tabular data, though it can be made for all data set formats.
+
+* [OSF's How to Make a Data Dictionary](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary#Variable-names).
+* [USDA Data Dictionary - Blank Template](https://data.nal.usda.gov/data-dictionary-blank-template).
+
+### > Code books
+
+A file that documents the layout and structure of a data file and contains the response codes that are used to record survey responses and other information.
+
+This is most often done in social science research.
+
+* [McGill University Health Center's Codebook Cookbook](http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf).
+* [ASU's Sample Questionnaire (with Coding)](http://www.public.asu.edu/~eagle/spssintro/esteem.htm).
+
+### > Lab or field notebooks
+
+A detailed record of all activities done while conducting research.
+
+Includes experimental materials and conditions, protocols, and results. May be either e-lab notebooks or physical notebooks.
+
+* [Rice University's Example of Notebook Pages and Entries](https://www.ruf.rice.edu/~bioslabs/tools/notebook/notebook_examples.html).
+
+
+### > Commented code 
+
+In-line comments in computer code that provide a description of the code's function.
+
+This documentation, unlike the others, is not stand alone, and is embedded in the code file and is obtainable from reading the code itself.
+
+* [Broad Institute's Coding and Comment Style](https://mitcommlab.mit.edu/broad/commkit/coding-and-comment-style/).

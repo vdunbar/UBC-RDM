@@ -1,0 +1,187 @@
+---
+title: "Ammending an Ethics Application"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 2
+    toc_float: TRUE
+---
+
+<div class = "definition">
+**If you wish to change any aspects of data management after receiving ethics approval, you will need to amend your ethics application.**
+
+A primary consideration for research ethics is how your data management plans (collection, access, storage, distribution and destruction) will affect the confidentiality, trust and safety of research participants. 
+
+The ethics application should represent your data management plans at all times throughout the life cycle of the research project. As data storage options and best practices can evolve over time, the REB expects that data management plans will also be updated.
+</div>
+
+<hr />
+
+<div class = "consideration">
+**Key Notes**
+
+* Plan ahead. Careful planning will help minimize any need for amendments. Read on to learn more or [check out resources on Data Management Planning](c_dmp.html).
+* Ethics is about more than data. Other changes not described here may require an amendment to your ethics application. Contact us if you're concerned [email](mailto:mail@mail.ubc.ca).
+
+If any of the following statements reflects why you're here, there's a good chance you should contact research ethics:
+
+* My commitment to my participants is changing.
+* I am changing the use of the data from what the participants agreed to.
+* More people will have access to my data then planned.
+* My research question has changed.
+* My data storage location is changing.
+
+Read on to learn more...
+
+</div>
+
+## Planning Ahead
+
+### Data Sharing
+
+It can be challenging to seek consent for new data usage after participant involvement has ended, so assume that the data will be published in an open-source repository and base your commitments to participants (including your data management plans) on this assumption.
+
+Other potential/future data uses should be mentioned in participant documentation.
+
+Reference: [Section 8.6 Future Use of Data](https://ethics.research.ubc.ca/behavioural-research-ethics/breb-guidance-notes/guidance-notes-behavioural-applications#8pt6).
+
+### Research Design
+
+Before finalizing your research design, try to anticipate the full life cycle of your data, including how they might be used in future. Be aware of data sharing requirements, including from granting agencies and journals.
+
+You want to ensure that all potential participant concerns can be addressed during the initial recruitment and consenting process.
+
+### Indigenous Data Management
+
+The Indigenous Research Support Initiative (IRSI) at UBC provides support for research based in First Nations and Indigenous Communities.
+
+Reach out early at [https://irsi.ubc.ca/](https://irsi.ubc.ca/).
+
+### Data Retention & Transfer
+
+Researchers (and by extension, UBC) remain accountable to participants until the data are destroyed. Data needs to be retained for 5 years after publication in a UBC facility, or be accessible by UBC for that period. For this reason, among others, students may not act as the sole custodians of their research data.
+
+This does not preclude researchers from taking a copy of their data with them when they transfer to another institution, but the data needs to remain at UBC for the minimum 5 years.
+
+<div class = "note">
+**Note**
+
+An ethics application amendment is not needed to transfer data after a study has closed.
+
+Reference: [Security Standard 6, Scholarly Integrity, Section 2.1.4](https://universitycounsel-2015.sites.olt.ubc.ca/files/2020/07/Scholarly-Integrity-Policy_SC6.pdf).
+</div>
+
+## Changes Needing Amendment
+
+### Data authorization
+
+Authorization to access data may concern multiple parties: including research participants and the communities to which they belong; research sponsors/partners; and data custodians.
+
+[Learn more about data authorization](c_authorization.html)
+
+### Adding data from a new source
+
+The use of a new data set in your research will require an amendment and – depending on where the data originates – may require additional agreements (data sharing, MOU, etc.). You will need to include such information in your amendment.
+
+Adding or linking data from another source will prompt questions about whether the confidentiality and security of research participants will be compromised in any way - ie will a new data set create the potential for participants' data to be re-identified?
+
+### Change to research collaborators
+
+If you are sharing data with new collaborators who will have access to the data, or if a collaborator who had access to the data is being removed from the project, an amendment to your ethics application is required.
+
+[Learn more about data and researech collaborations](c_collaborations.html)
+
+### Requests to access my data
+
+If your research data will be used in a way not previously described in your ethics application and participant documents, additional permissions will be needed and an amendment or new ethics application will be required. 
+
+### I want to re-use my data
+
+Using data for a new research purpose requires participant consent or a strong justification for a waiver of consent. A new ethics application is required.
+
+[Learn more about data re-use](p_re-use.html)
+
+### I want to move my data
+
+Depending on what phase of the research you are in (see next section), you may need to amend your ethics application, renegotiate data agreements, and/or inform research partners. 
+
+[Learn more about moving data](c_active-management.html)
+
+## Submiting an Amendment
+
+Depending on what phase of the research life cycle you are in, ethics approval may be needed before changes to data management are implemented. Submit the changes in a PAA (post-approval activity) for review and approval before implementing the changes.
+
+Some examples of **when** an amendment or other post-approval activity would be needed include...
+
+### Pre-recruitment/pre-consent
+
+If your recruitment or consent materials no longer reflect how your data will be managed.
+
+### Data collection/analysis
+
+If the consent form no longer accurately reflects how data will be managed - changes to your data storage methods will affect the security, confidentiality or trust of participants.
+
+### Publishing
+
+If you are required to share data with a publication or make data available in an open access repository and have not received consent from participants to do so.
+
+Reference: [Section 8.6 Future Use of Data](https://ethics.research.ubc.ca/behavioural-research-ethics/breb-guidance-notes/guidance-notes-behavioural-applications#8pt6). 
+
+### Study Closure & Data Storage
+
+If you are ready to close your study - ie no further interaction with participants is needed.
+
+Submit a PAA for "Completion of Behavioural Study". You will be required to re-confirm how your data is being stored.
+
+Required information is outlined on the PAA Coversheet.
+
+### Reuse & Secondary Use of Data
+
+If you are re-purposing data for a different research project, or with a different researcher/team.
+
+Reference: [Section 5.7.7 Secondary Use of Data](https://ethics.research.ubc.ca/behavioural-research-ethics/breb-guidance-notes/guidance-notes-behavioural-applications5pt7pt7)
+
+<div class = "note">
+**Still Unsure**
+
+No worries. You can always contact REB staff for more information at [https://ethics.research.ubc.ca/about-human-research-ethics/contact-us](https://ethics.research.ubc.ca/about-human-research-ethics/contact-us)  
+</div>
+
+## Anonymous Data
+
+<div class = "flag">
+**De-Identified Data &#8800; Anonymous Data**
+
+Data are only considered anonymous if they are collected without any identifiers. 
+</div>
+
+If your data is anonymous, and you want to make changes to your research data management plan...
+
+* Re-consent of participants is not required (nor is it feasible);
+* An amendment to the ethics application is needed if changes to data storage and retention, are proposed;
+* An amendment is needed if access to the data is being expanded - ie new research team members, new sponsors, partnerships, etc.
+
+## Related Topics
+
+* [Collaborations](c_collaborations.html)
+* [Data Authorization](c_authorization.html)
+* [Data Management Plans](c_dmp.html)
+* [Data Sharing](c_sharing.html)
+* [Moving Data](c_moving.html)
+* [Policies](c_policies.html)
+
+<div class = "note">
+**Additional resources**
+
+In addition to the resources on this site, you'll find up to date guidance and interpretation on the ethics application process from both UBC, the federal Panel on Research Ethics, and the First Nations Indigenous Governance Centre.
+
+* UBC Ethics [https://ethics.ubc.ca](https://ethics.ubc.ca)
+* Panel on Research Ethics [https://ethics.gc.ca/](https://ethics.gc.ca/)
+* First Nations Indigenous Governance Centre [https://fnigc.ca/](https://fnigc.ca/)
+
+Not sure where to go or who to ask? [Shoot us an email](s_talk.html) and We'll connect you with the right people..
+</div>
+
+ 
+
+

@@ -1,25 +1,50 @@
 ---
 title: "Metadata"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 3
+    toc_float:
+        collapsed: FALSE
 ---
 
-**Definition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..**
+<div class = "definition">
+**Metadata is an umbrella term involving all the ways in which you may describe your data, including discovery, access and use by others. Put simply, it is \"Data about data\".**
 
-<div class = "consideration">
-**Have you thought about...**
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Metadata is a way to help describe and enhance the re-usability of your data.
 </div>
 
-## First Header
+<hr />
 
-With some content.
+<div class = "consideration">
+**Key Notes**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Meta data is part of the documentation of your research. It is also helpful when your metadat adheres to relevant standards. So, when planning and managing your research, you should also consider:
 
-## Second Header
+* Metadata standards.  [Read more about metadata standards](p_metadata-standards.html).
+* Data documentation.  [Read more about data documentation](p_documention.html).
 
-With some content.
+As always, if you are unsure about any of the above, or have questions, [get in touch](s_talk.html). 
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Types of Metadata
+
+Metadata comes in three basic flavours, depending on what aspect of a research project we\'re trying to describe. Each will potentially have it\'s own standard, depending on your field of practice.
+
+### > Descriptive
+
+Information about the content and context of your data.
+
+Examples: title, creator, keywords, descriptions
+
+### > Structural
+
+Information about how different data sets relate to one another, or any processing or formatting steps that were undertaken.
+
+Examples: instruments used, file formats, indexes
+
+### > Administrative
+
+Information about instructions, rules, and restrictions about your data.
+
+Examples: access controls and use requirements, copyright permissions, acquisition information

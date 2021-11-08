@@ -1,25 +1,64 @@
 ---
 title: "Data Collection Tools"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 3
+    toc_float:
+      collapsed: FALSE
 ---
 
-**Definition. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..**
-
-<div class = "consideration">
-**Have you thought about...**
-
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<div class = "definition">
+**While a data collection tool could be any tool for gather any kind of data – participant, environmental etc. - data collection tools here are those software, namely online tools, that UBC provisions out of the box for acquiring participant data whether by survey or interview.**
 </div>
 
-## First Header
+<hr />
 
-With some content.
+<div class = "consideration">
+**Key Notes**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Data collection is the first stage in data storage; everything we ask ourselves about data storage, we should ask ourselves about data collection.
 
-## Second Header
+Your data collection and management plan should take into consideration:
 
-With some content.
+* Data ownership. [Read more about data ownership](c_authorization.html).
+* Sensitive or potentially sensitive data. [Read more about data handling sensitive data] (NO LINK YET).
+* Specific security requirements. [Learn more about electronic information security](p_security.html).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As always, if you are unsure about any of the above, or have specific questions about either procurement or data acquisition, [get in touch](s_talk.html). 
+</div>
+
+## Data Collection Tools
+
+### > Survey tools
+
+#### Qualtrics
+
+Canadian hosted, UBC supported online survey tool that allows you to build simple and complex data capture surveys.
+
+Get Started
+
+* Find out how to connect link to IT
+
+Get Support
+
+* email us your question Prompt - UBCO or UBCV? 
+
+* Read the documentation link outside UBC?
+
+#### REDCap
+
+Secure survey data collection tool ideal for collecting sensitive data that for whatever reason cannot or should not be stored in the cloud or transmitted through the internet.
+
+Get Started
+
+This is a guided service and we\'ll help you get set up with it and explore options, so please get in touch at [support@arc.ubc.ca](mailto:support@arc.ubc.ca)
+
+Get Support
+
+* email us your question Prompt - UBCO or UBCV?
+* Read the documentation link to wherever this lives
+
+### > Interview tools
+
+#### Zoom

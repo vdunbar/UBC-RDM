@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Ammending an Ethics Application</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">RDM</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="s_learn.html">Learn</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Get Help
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="s_talk.html">Talk to a Person</a>
+    </li>
+    <li>
+      <a href="s_self-guided.html">Self Guided</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="s_training.html">Training &amp; Workshops</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Ammending an Ethics Application</h1>
+
+</div>
+
+
+<div class="definition">
+<p><strong>If you wish to change any aspects of data management after receiving ethics approval, you will need to amend your ethics application.</strong></p>
+<p>A primary consideration for research ethics is how your data management plans (collection, access, storage, distribution and destruction) will affect the confidentiality, trust and safety of research participants.</p>
+<p>The ethics application should represent your data management plans at all times throughout the life cycle of the research project. As data storage options and best practices can evolve over time, the REB expects that data management plans will also be updated.</p>
+</div>
+<hr />
+<div class="consideration">
+<p><strong>Key Notes</strong></p>
+<ul>
+<li>Plan ahead. Careful planning will help minimize any need for amendments. Read on to learn more or <a href="c_dmp.html">check out resources on Data Management Planning</a>.</li>
+<li>Ethics is about more than data. Other changes not described here may require an amendment to your ethics application. Contact us if you’re concerned <a href="mailto:mail@mail.ubc.ca">email</a>.</li>
+</ul>
+<p>If any of the following statements reflects why you’re here, there’s a good chance you should contact research ethics:</p>
+<ul>
+<li>My commitment to my participants is changing.</li>
+<li>I am changing the use of the data from what the participants agreed to.</li>
+<li>More people will have access to my data then planned.</li>
+<li>My research question has changed.</li>
+<li>My data storage location is changing.</li>
+</ul>
+<p>Read on to learn more…</p>
+</div>
+<div id="planning-ahead" class="section level2">
+<h2>Planning Ahead</h2>
+<div id="data-sharing" class="section level3">
+<h3>Data Sharing</h3>
+<p>It can be challenging to seek consent for new data usage after participant involvement has ended, so assume that the data will be published in an open-source repository and base your commitments to participants (including your data management plans) on this assumption.</p>
+<p>Other potential/future data uses should be mentioned in participant documentation.</p>
+<p>Reference: <a href="https://ethics.research.ubc.ca/behavioural-research-ethics/breb-guidance-notes/guidance-notes-behavioural-applications#8pt6">Section 8.6 Future Use of Data</a>.</p>
+</div>
+<div id="research-design" class="section level3">
+<h3>Research Design</h3>
+<p>Before finalizing your research design, try to anticipate the full life cycle of your data, including how they might be used in future. Be aware of data sharing requirements, including from granting agencies and journals.</p>
+<p>You want to ensure that all potential participant concerns can be addressed during the initial recruitment and consenting process.</p>
+</div>
+<div id="indigenous-data-management" class="section level3">
+<h3>Indigenous Data Management</h3>
+<p>The Indigenous Research Support Initiative (IRSI) at UBC provides support for research based in First Nations and Indigenous Communities.</p>
+<p>Reach out early at <a href="https://irsi.ubc.ca/">https://irsi.ubc.ca/</a>.</p>
+</div>
+<div id="data-retention-transfer" class="section level3">
+<h3>Data Retention &amp; Transfer</h3>
+<p>Researchers (and by extension, UBC) remain accountable to participants until the data are destroyed. Data needs to be retained for 5 years after publication in a UBC facility, or be accessible by UBC for that period. For this reason, among others, students may not act as the sole custodians of their research data.</p>
+<p>This does not preclude researchers from taking a copy of their data with them when they transfer to another institution, but the data needs to remain at UBC for the minimum 5 years.</p>
+<div class="note">
+<p><strong>Note</strong></p>
+<p>An ethics application amendment is not needed to transfer data after a study has closed.</p>
+<p>Reference: <a href="https://universitycounsel-2015.sites.olt.ubc.ca/files/2020/07/Scholarly-Integrity-Policy_SC6.pdf">Security Standard 6, Scholarly Integrity, Section 2.1.4</a>.</p>
+</div>
+</div>
+</div>
+<div id="changes-needing-amendment" class="section level2">
+<h2>Changes Needing Amendment</h2>
+<div id="data-authorization" class="section level3">
+<h3>Data authorization</h3>
+<p>Authorization to access data may concern multiple parties: including research participants and the communities to which they belong; research sponsors/partners; and data custodians.</p>
+<p><a href="c_authorization.html">Learn more about data authorization</a></p>
+</div>
+<div id="adding-data-from-a-new-source" class="section level3">
+<h3>Adding data from a new source</h3>
+<p>The use of a new data set in your research will require an amendment and – depending on where the data originates – may require additional agreements (data sharing, MOU, etc.). You will need to include such information in your amendment.</p>
+<p>Adding or linking data from another source will prompt questions about whether the confidentiality and security of research participants will be compromised in any way - ie will a new data set create the potential for participants’ data to be re-identified?</p>
+</div>
+<div id="change-to-research-collaborators" class="section level3">
+<h3>Change to research collaborators</h3>
+<p>If you are sharing data with new collaborators who will have access to the data, or if a collaborator who had access to the data is being removed from the project, an amendment to your ethics application is required.</p>
+<p><a href="c_collaborations.html">Learn more about data and researech collaborations</a></p>
+</div>
+<div id="requests-to-access-my-data" class="section level3">
+<h3>Requests to access my data</h3>
+<p>If your research data will be used in a way not previously described in your ethics application and participant documents, additional permissions will be needed and an amendment or new ethics application will be required.</p>
+</div>
+<div id="i-want-to-re-use-my-data" class="section level3">
+<h3>I want to re-use my data</h3>
+<p>Using data for a new research purpose requires participant consent or a strong justification for a waiver of consent. A new ethics application is required.</p>
+<p><a href="p_re-use.html">Learn more about data re-use</a></p>
+</div>
+<div id="i-want-to-move-my-data" class="section level3">
+<h3>I want to move my data</h3>
+<p>Depending on what phase of the research you are in (see next section), you may need to amend your ethics application, renegotiate data agreements, and/or inform research partners.</p>
+<p><a href="c_active-management.html">Learn more about moving data</a></p>
+</div>
+</div>
+<div id="submiting-an-amendment" class="section level2">
+<h2>Submiting an Amendment</h2>
+<p>Depending on what phase of the research life cycle you are in, ethics approval may be needed before changes to data management are implemented. Submit the changes in a PAA (post-approval activity) for review and approval before implementing the changes.</p>
+<p>Some examples of <strong>when</strong> an amendment or other post-approval activity would be needed include…</p>
+<div id="pre-recruitmentpre-consent" class="section level3">
+<h3>Pre-recruitment/pre-consent</h3>
+<p>If your recruitment or consent materials no longer reflect how your data will be managed.</p>
+</div>
+<div id="data-collectionanalysis" class="section level3">
+<h3>Data collection/analysis</h3>
+<p>If the consent form no longer accurately reflects how data will be managed - changes to your data storage methods will affect the security, confidentiality or trust of participants.</p>
+</div>
+<div id="publishing" class="section level3">
+<h3>Publishing</h3>
+<p>If you are required to share data with a publication or make data available in an open access repository and have not received consent from participants to do so.</p>
+<p>Reference: <a href="https://ethics.research.ubc.ca/behavioural-research-ethics/breb-guidance-notes/guidance-notes-behavioural-applications#8pt6">Section 8.6 Future Use of Data</a>.</p>
+</div>
+<div id="study-closure-data-storage" class="section level3">
+<h3>Study Closure &amp; Data Storage</h3>
+<p>If you are ready to close your study - ie no further interaction with participants is needed.</p>
+<p>Submit a PAA for “Completion of Behavioural Study”. You will be required to re-confirm how your data is being stored.</p>
+<p>Required information is outlined on the PAA Coversheet.</p>
+</div>
+<div id="reuse-secondary-use-of-data" class="section level3">
+<h3>Reuse &amp; Secondary Use of Data</h3>
+<p>If you are re-purposing data for a different research project, or with a different researcher/team.</p>
+<p>Reference: <a href="https://ethics.research.ubc.ca/behavioural-research-ethics/breb-guidance-notes/guidance-notes-behavioural-applications5pt7pt7">Section 5.7.7 Secondary Use of Data</a></p>
+<div class="note">
+<p><strong>Still Unsure</strong></p>
+<p>No worries. You can always contact REB staff for more information at <a href="https://ethics.research.ubc.ca/about-human-research-ethics/contact-us">https://ethics.research.ubc.ca/about-human-research-ethics/contact-us</a></p>
+</div>
+</div>
+</div>
+<div id="anonymous-data" class="section level2">
+<h2>Anonymous Data</h2>
+<div class="flag">
+<p><strong>De-Identified Data ≠ Anonymous Data</strong></p>
+<p>Data are only considered anonymous if they are collected without any identifiers.</p>
+</div>
+<p>If your data is anonymous, and you want to make changes to your research data management plan…</p>
+<ul>
+<li>Re-consent of participants is not required (nor is it feasible);</li>
+<li>An amendment to the ethics application is needed if changes to data storage and retention, are proposed;</li>
+<li>An amendment is needed if access to the data is being expanded - ie new research team members, new sponsors, partnerships, etc.</li>
+</ul>
+</div>
+<div id="related-topics" class="section level2">
+<h2>Related Topics</h2>
+<ul>
+<li><a href="c_collaborations.html">Collaborations</a></li>
+<li><a href="c_authorization.html">Data Authorization</a></li>
+<li><a href="c_dmp.html">Data Management Plans</a></li>
+<li><a href="c_sharing.html">Data Sharing</a></li>
+<li><a href="c_moving.html">Moving Data</a></li>
+<li><a href="c_policies.html">Policies</a></li>
+</ul>
+<div class="note">
+<p><strong>Additional resources</strong></p>
+<p>In addition to the resources on this site, you’ll find up to date guidance and interpretation on the ethics application process from both UBC, the federal Panel on Research Ethics, and the First Nations Indigenous Governance Centre.</p>
+<ul>
+<li>UBC Ethics <a href="https://ethics.ubc.ca">https://ethics.ubc.ca</a></li>
+<li>Panel on Research Ethics <a href="https://ethics.gc.ca/">https://ethics.gc.ca/</a></li>
+<li>First Nations Indigenous Governance Centre <a href="https://fnigc.ca/">https://fnigc.ca/</a></li>
+</ul>
+<p>Not sure where to go or who to ask? <a href="s_talk.html">Shoot us an email</a> and We’ll connect you with the right people..</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
