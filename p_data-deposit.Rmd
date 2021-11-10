@@ -1,0 +1,118 @@
+---
+title: "Depositing data"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 3
+    toc_float:
+        collapsed: FALSE
+---
+
+<div class = "definition">
+**Depositing your data provides a permanent, durable home for your data once you have completed your active research.**
+</div>
+
+<hr />
+
+<div class = "consideration">
+**Key Notes**
+
+When depositing or storing data, you should be familiar with the following topics...
+
+* Personally identifiable or other sensitive information. [Learn more about de-identifying data](p_de-identifcation.html).
+* Content from Indigenous communities. [Read more about Indigenous data governance](p_indigenous-governance.html).
+* Rights, commitments or obligations to share or deposit the data. [Read more about sharing data](p_sharing.html).
+* Total size of your data. Not all repositories accept large datasets. [See limitations on a couple of UBC supported repositories](https://mfr.ca-1.osf.io/render?url=https://osf.io/rc7de/?direct%26mode=render%26action=download%26mode=render).
+* Costs associated with depositing your data. Read on to learn more.
+
+As always, if you are unsure about any of the above, or have questions, [get in touch](s_talk.html).
+</div>
+
+## UBC Repositories
+
+### > UBC Dataverse
+
+[UBC Dataverse](https://dataverse.scholarsportal.info/dataverse/ubc) is a free research data repository for our faculty, students and staff. It is a repository that supports research data from many disciplines. Researchers are encouraged to make their data available publicly, but can choose to restrict access to their data if they wish.
+
+Key features of UBC Dataverse include:
+
+* UBC CWL integration.
+* No data deposit fees. 
+* Support from the Research Data Management Librarian.
+* Dedicated Dataverses for yourself or your department / lab / research group are available.
+* Canadian data storage platform.
+* 2.5 GB maximum individual file size.
+* For datasets larger than a few GB, please contact us before proceeding.
+* Digital Object Identifiers (DOIs) at the dataset level.
+* Different licensing models (CC0, CC BY 4 and others) are available.
+* Standardized metadata and a nationwide data discovery platform.
+* Datasets are incorporated automatically into FRDR, making them findable alongside other Canadian research data.
+
+For more information about Dataverse, [consult our Dataverse page](https://researchdata.library.ubc.ca/deposit/dataverse/).
+
+### > FRDR
+
+Canada's [Federated Research Data Repository](https://www.frdr-dfdr.ca/repo/) allows faculty members, librarians or their designates at any Canadian post secondary institution to deposit research data.
+
+Key features of FRDR include:
+
+* No data deposit fees.
+* Data curation review and support by the FRDR data curation team. 
+* Up to 1 TB of storage space for each researcher by default; more is available on request.
+* Supports individual file sizes larger than 2.5 GB.
+* Canadian data storage platform.
+* Digital Object Identifiers (DOIs) at the dataset level.
+* Data deposits via HTTP or Globus file transfer (for large datasets).
+* Dedicated collections for yourself or your department / lab / research group are available.
+* Standardized metadata and a [nationwide data discovery platform](https://www.frdr-dfdr.ca/repo/).
+* Geospatial data search with [Geodisy](https://geo.frdr-dfdr.ca/).
+
+For more information about FRDR, [consult our FRDR page](https://researchdata.library.ubc.ca/deposit/frdr/).
+
+### > Dryad
+
+Dryad is a non-profit U.S. organization that operates a global, generalist research data repository. Founded in 2008 to serve researchers in the biological and medical sciences, Dryad has since grown to become a major repository for research data in many fields. UBC became the first Canadian institutional member of Dryad in 2021.
+
+Key features of Dryad include:
+
+* UBC CWL integration. 
+* Data curation review and support by the Dryad data curation team.
+* No fees for basic data deposits because UBC is an institutional member. Deposit fees may apply for very large deposits.
+* Data quality and accessibility verification, metadata cleanup and curation and direct support to researchers.
+* Digital Object Identifiers (DOIs) at the dataset level.
+* Mandatory public domain dedication [CC0 license](https://blog.datadryad.org/2011/10/05/why-does-dryad-use-cc0/) for all datasets.
+* Datasets are incorporated automatically into the [UBC Dryad2Dataverse collection](https://dataverse.scholarsportal.info/dataverse/UBC_DRYAD) on the UBC Dataverse and into FRDR.
+
+For more information about FRDR, consult our Dryad page. Link coming soon.
+
+## Non-UBC Options
+
+There are numerous data repositories to support specific disciplines and generalist repositories to support a mix of disciplines. Sometimes specialist repositories are more appropriate than the UBC supported options.
+
+<div class = "flag">
+While we can offer guidance on selecting a repository, these repositories are administered by bodies other than UBC and you need to contact those bodies directly for support.
+</div>
+
+Some common examples include:
+
+* [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) for genetic sequence data
+* [Global Biodiversity Information Facility](https://www.gbif.org/) for biodiversity data
+* [Figshare](https://figshare.com/) for many different disciplines
+* [Zenodo](https://zenodo.org) for many different disciplines (hosted at CERN)
+
+<div class = "note">
+**Find more repositories**
+
+[re3data.org](https://www.re3data.org/) is registry of research data repositories that will help you identify either disciplinary or institutional repository to share research data.
+
+[Your subject librarian](http://directory.library.ubc.ca/subjectlibrarians/) can advise on other available repositories in your field.
+</div>
+
+## Learn More
+
+UBC Library provides additional information on sharing your data through data deposit on their dedicated RDM webpage. [Read more here](https://researchdata.library.ubc.ca/share/share-your-data/).
+
+This RDM page also includes details on finding data deposited by others. [Learn more here](https://researchdata.library.ubc.ca/find/).
+
+Not finding what you\'re looking for? [Let us know](s_talk.html).
+
