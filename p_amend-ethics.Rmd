@@ -1,5 +1,5 @@
 ---
-title: "Ammending an Ethics Application"
+title: "Amending an Ethics Application"
 output:
   html_document:
     toc: TRUE
