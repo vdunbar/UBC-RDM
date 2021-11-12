@@ -11,8 +11,6 @@ output:
 <div class = "definition">
 **Metadata is an umbrella term involving all the ways in which you may describe your data, including discovery, access and use by others. Put simply, it is \"Data about data\".**
 
-This is new content.
-
 Metadata is a way to help describe and enhance the re-usability of your data.
 </div>
 
