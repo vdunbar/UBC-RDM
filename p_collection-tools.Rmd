@@ -9,7 +9,7 @@ output:
 ---
 
 <div class = "definition">
-**While a data collection tool could be any tool for gather any kind of data – participant, environmental etc. - data collection tools here are those software, namely online tools, that UBC provisions out of the box for acquiring participant data whether by survey or interview.**
+**One of many tools for gathering any kind of data across a range of activities from qualitative participant surveys to discrete environmental readings or continuous measures of state**.
 </div>
 
 <hr />
@@ -28,7 +28,17 @@ Your data collection and management plan should take into consideration:
 As always, if you are unsure about any of the above, or have specific questions about either procurement or data acquisition, [get in touch](s_talk.html). 
 </div>
 
+<div class = "note">
+**Specialty & Domain Specific Tools**
+
+In addition to departmental supports for the acquisition of specialty and domain specific data collection tools, Advanced Research Computing can help ensure that these tools align with various data management policies and agreements to which your research may need to adhere, including those from UBC, funders, and research partners.
+
+So don't hesitate to reach out at [support@arc.ubc.ca](mailto:support@arc.ubc.ca).
+</div>
+
 ## Data Collection Tools
+
+UBC centrally supports a handful of tools to gather survey data and conduct participant interviews remotely.
 
 ### > Survey tools
 
@@ -36,29 +46,27 @@ As always, if you are unsure about any of the above, or have specific questions 
 
 Canadian hosted, UBC supported online survey tool that allows you to build simple and complex data capture surveys.
 
-Get Started
-
-* Find out how to connect link to IT
-
-Get Support
-
-* email us your question Prompt - UBCO or UBCV? 
-
-* Read the documentation link outside UBC?
+* Get setup with [UBC IT resources](https://it.ubc.ca/services/teaching-learning-tools/survey-tool).
+* Or [get in touch if you need guidance with your project](s_talk.html).
 
 #### REDCap
 
-Secure survey data collection tool ideal for collecting sensitive data that for whatever reason cannot or should not be stored in the cloud or transmitted through the internet.
+Secure survey data collection tool ideal for collecting sensitive data that for whatever reason cannot or should not be stored in the cloud or transmitted over the internet.
 
-Get Started
+Use of REDCap requires an account. [You can learn about registering for an account here and get started](https://arc.ubc.ca/redcap). But it's highly recommended that if you're going to be using this tool for collecting potentially medium to high risk data, you have a chat with the privacy and security folks at Advanced Research Computing. You can do that sending an email to [support@arc.ubc.ca](mailto:support@arc.ubc.ca).
 
-This is a guided service and we\'ll help you get set up with it and explore options, so please get in touch at [support@arc.ubc.ca](mailto:support@arc.ubc.ca)
+<div class = "flag">
+**Medium & High Risk Data**
 
-Get Support
+No matter what your data collection activities, you and your entire team should know the risk levels of your data.
 
-* email us your question Prompt - UBCO or UBCV?
-* Read the documentation link to wherever this lives
+Check out our resource on [Electronic Information Security](p_security.html) to learn more. Or contact ARC directly at [support@arc.ubc.ca](mailto:support@arc.ubc.ca)
+</div>
 
 ### > Interview tools
 
 #### Zoom
+
+An easy-to-use video conferencing platform that offers a wide range of features including recording, captioning and screen sharing.
+
+To get setup, and to learn about Zoom and it's use for the conduct of research visit [UBC IT](https://it.ubc.ca/services/teaching-learning-tools/zoom-video-conferencing).
