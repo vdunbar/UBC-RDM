@@ -5,7 +5,7 @@ title: "RDM @ UBC"
 <button class = "indexButton">
 <h2>Learn</h2>
 
-Self guided resources that cover everything from creating a data management plan, to naming conventions, recommended file formats and how to handle storage of common data types.
+Self guided resources that cover everything from creating a data management plan, to research ethics considerations, naming conventions, recommended file formats and how to handle storage of common data types.
 </button>
 </a>
 
